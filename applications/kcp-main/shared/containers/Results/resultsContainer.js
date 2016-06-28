@@ -12,7 +12,7 @@ import ResultModal from '../ResultModal/ResultModal';
 export default class ResultsContainer extends Component {
   constructor(props) {
     super(props);
-    this.showModal =  this.showModal.bind(this);
+    this.showModal = this.showModal.bind(this);
   }
 
   componentWillMount(){
